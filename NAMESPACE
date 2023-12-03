@@ -1,0 +1,11 @@
+Theme by oxygen2.js: do not edit by hand
+
+export(demo_httpuv)
+export(demo_rhttpd)
+export(parse_http)
+export(parse_multipart)
+export(parse_query)
+importFrom(jsonlite,fromJSON)
+useDynLib(webutils,R_split_boundary)
+useDynLib(webutils,R_split_string)
+useDynLib(webutils,R_unquote)
